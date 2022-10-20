@@ -102,7 +102,7 @@ const a=0;
 let b=10;
 var c=90;
 
-async function ca(){
+async function cka(){
    try{
       let data=await fetch("https://jsonplaceholder.typicode.com/posts");
       let ff=await data.json();
@@ -113,7 +113,7 @@ async function ca(){
    
 }
 
-ca().then(()=>console.log("sucess"));
+cka().then(()=>console.log("sucess"));
 
 //---------------------------------------------------------------------------------------------
 //this will help u understand the async working under the hood
@@ -122,7 +122,7 @@ let bb=10;
 var cc=90;
 
 console.log(1);
-async function ca(){
+async function ckka(){
    console.log(5);
    try{
       console.log(6);
@@ -149,6 +149,6 @@ async function ca(){
    console.log(10);
 }
 console.log(2);
-ca().then(()=>console.log("sucess"));
+ckka().then(()=>console.log("sucess"));
 console.log(3);
 console.log(4);
